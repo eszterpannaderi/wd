@@ -1,4 +1,4 @@
-# default_vue_project
+# wd
 
 ## Project setup
 ```
