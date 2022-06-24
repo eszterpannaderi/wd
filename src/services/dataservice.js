@@ -10,6 +10,15 @@ export default{
             return resp.data
         })
         .catch(()=>{})
+    },
+
+    getEpisodesBySeason(seasonNumber){
+
+        return Axios.get(`/episodes?season=${seasonNumber}`)
+        .then(resp=>{
+            return resp.data
+        })
+        .catch(()=>{})
     }
     
 }
